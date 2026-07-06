@@ -1,3 +1,0 @@
-[WARN] [1783353460.963327856] [pose_logger]: TF lookup failed: "panda_link0" passed to lookupTransform argument target_frame does not exist. 
-[WARN] [1783353460.964202911] [pose_logger]: TF lookup failed: "panda_link0" passed to lookupTransform argument target_frame does not exist. 
-[WARN] [1783353460.976579697] [pose_logger]: TF lookup failed: "panda_link0" passed to lookupTransform argument target_frame does not exist. 

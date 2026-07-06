@@ -1,9 +1,0 @@
-[INFO] [1783352697.880226191] [rviz2]: Stereo is NOT SUPPORTED
-[INFO] [1783352697.880375719] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
-[INFO] [1783352697.915740752] [rviz2]: Stereo is NOT SUPPORTED
-[INFO] [1783352698.054306415] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.00575672 seconds
-[INFO] [1783352698.054670784] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
-[WARN] [1783352698.055160742] [moveit_robot_model.robot_model]: Link panda_leftfinger has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
-[WARN] [1783352698.055219820] [moveit_robot_model.robot_model]: Link panda_rightfinger has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
-[INFO] [1783352698.491696956] [rclcpp]: signal_handler(SIGINT/SIGTERM)
-[ERROR] [1783352698.491769185] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available

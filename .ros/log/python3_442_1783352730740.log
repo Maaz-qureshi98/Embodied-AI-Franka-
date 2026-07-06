@@ -1,4 +1,0 @@
-[INFO] [1783352730.860807255] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
-[WARN] [1783352740.864117771] [spawner_joint_state_broadcaster]: Failed getting a result from calling /controller_manager/configure_controller in 10.0. (Attempt 1 of 3.)
-[WARN] [1783352750.865100471] [spawner_joint_state_broadcaster]: Failed getting a result from calling /controller_manager/configure_controller in 10.0. (Attempt 2 of 3.)
-[WARN] [1783352760.866662043] [spawner_joint_state_broadcaster]: Failed getting a result from calling /controller_manager/configure_controller in 10.0. (Attempt 3 of 3.)

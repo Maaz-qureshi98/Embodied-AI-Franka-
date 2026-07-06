@@ -1,3 +1,0 @@
-[INFO] [1783352697.596742292] [panda_gripper]: Trying to establish a connection with the gripper
-[INFO] [1783352697.598414198] [panda_gripper]: Connected to gripper
-[INFO] [1783352698.488530206] [rclcpp]: signal_handler(SIGINT/SIGTERM)
