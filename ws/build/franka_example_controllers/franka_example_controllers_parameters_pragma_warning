@@ -1,0 +1,1 @@
+#pragma message("#include \"franka_example_controllers_parameters.hpp\" is deprecated. Use #include <franka_example_controllers/franka_example_controllers_parameters.hpp> instead.")

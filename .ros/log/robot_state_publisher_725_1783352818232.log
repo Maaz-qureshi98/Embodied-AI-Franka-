@@ -1,0 +1,13 @@
+[INFO] [1783352818.266578923] [robot_state_publisher]: got segment panda_hand
+[INFO] [1783352818.266658243] [robot_state_publisher]: got segment panda_hand_tcp
+[INFO] [1783352818.266668303] [robot_state_publisher]: got segment panda_leftfinger
+[INFO] [1783352818.266673559] [robot_state_publisher]: got segment panda_link0
+[INFO] [1783352818.266678233] [robot_state_publisher]: got segment panda_link1
+[INFO] [1783352818.266682711] [robot_state_publisher]: got segment panda_link2
+[INFO] [1783352818.266687444] [robot_state_publisher]: got segment panda_link3
+[INFO] [1783352818.266692025] [robot_state_publisher]: got segment panda_link4
+[INFO] [1783352818.266696473] [robot_state_publisher]: got segment panda_link5
+[INFO] [1783352818.266700889] [robot_state_publisher]: got segment panda_link6
+[INFO] [1783352818.266705779] [robot_state_publisher]: got segment panda_link7
+[INFO] [1783352818.266710192] [robot_state_publisher]: got segment panda_link8
+[INFO] [1783352818.266714525] [robot_state_publisher]: got segment panda_rightfinger

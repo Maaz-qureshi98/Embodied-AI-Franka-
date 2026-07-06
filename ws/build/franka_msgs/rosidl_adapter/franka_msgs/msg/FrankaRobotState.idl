@@ -1,0 +1,117 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from franka_msgs/msg/FrankaRobotState.msg
+// generated code does not contain a copyright notice
+
+#include "franka_msgs/msg/Errors.idl"
+#include "std_msgs/msg/Header.idl"
+
+module franka_msgs {
+  module msg {
+    typedef double double__6[6];
+    typedef double double__7[7];
+    typedef double double__2[2];
+    typedef double double__3[3];
+    typedef double double__9[9];
+    typedef double double__16[16];
+    module FrankaRobotState_Constants {
+      const uint8 ROBOT_MODE_OTHER = 0;
+      const uint8 ROBOT_MODE_IDLE = 1;
+      const uint8 ROBOT_MODE_MOVE = 2;
+      const uint8 ROBOT_MODE_GUIDING = 3;
+      const uint8 ROBOT_MODE_REFLEX = 4;
+      const uint8 ROBOT_MODE_USER_STOPPED = 5;
+      const uint8 ROBOT_MODE_AUTOMATIC_ERROR_RECOVERY = 6;
+    };
+    struct FrankaRobotState {
+      std_msgs::msg::Header header;
+
+      double__6 cartesian_collision;
+
+      double__6 cartesian_contact;
+
+      double__7 q;
+
+      double__7 q_d;
+
+      double__7 dq;
+
+      double__7 dq_d;
+
+      double__7 ddq_d;
+
+      double__7 theta;
+
+      double__7 dtheta;
+
+      double__7 tau_j;
+
+      double__7 dtau_j;
+
+      double__7 tau_j_d;
+
+      double__6 k_f_ext_hat_k;
+
+      double__2 elbow;
+
+      double__2 elbow_d;
+
+      double__2 elbow_c;
+
+      double__2 delbow_c;
+
+      double__2 ddelbow_c;
+
+      double__7 joint_collision;
+
+      double__7 joint_contact;
+
+      double__6 o_f_ext_hat_k;
+
+      double__6 o_dp_ee_d;
+
+      double__6 o_dp_ee_c;
+
+      double__6 o_ddp_ee_c;
+
+      double__7 tau_ext_hat_filtered;
+
+      double m_ee;
+
+      double__3 f_x_cee;
+
+      double__9 i_ee;
+
+      double m_load;
+
+      double__3 f_x_cload;
+
+      double__9 i_load;
+
+      double m_total;
+
+      double__3 f_x_ctotal;
+
+      double__9 i_total;
+
+      double__16 o_t_ee;
+
+      double__16 o_t_ee_d;
+
+      double__16 o_t_ee_c;
+
+      double__16 f_t_ee;
+
+      double__16 ee_t_k;
+
+      double time;
+
+      double control_command_success_rate;
+
+      uint8 robot_mode;
+
+      franka_msgs::msg::Errors current_errors;
+
+      franka_msgs::msg::Errors last_motion_errors;
+    };
+  };
+};

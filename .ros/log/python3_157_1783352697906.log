@@ -1,0 +1,3 @@
+[INFO] [1783352697.971281671] [spawner_franka_robot_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [1783352698.234268931] [spawner_franka_robot_state_broadcaster]: [94mLoaded [1mfranka_robot_state_broadcaster[0m
+[INFO] [1783352698.261691765] [spawner_franka_robot_state_broadcaster]: [92mConfigured and activated [1mfranka_robot_state_broadcaster[0m

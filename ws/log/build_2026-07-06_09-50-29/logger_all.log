@@ -1,0 +1,683 @@
+[0.146s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.146s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff3076196f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff3076196f0>>)
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.327s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robohub/ws'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'ros'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extensions ['cmake', 'python']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'cmake'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'python'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extensions ['python_setup_py']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'python_setup_py'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/build) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/build) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/build) ignored
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_bringup' with type 'ros.ament_cmake' and name 'franka_bringup'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_description) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_description) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_description) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_description) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_description) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_description' with type 'ros.ament_cmake' and name 'franka_description'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_example_controllers' with type 'ros.ament_cmake' and name 'franka_example_controllers'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extension 'ros'
+[0.352s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_gripper' with type 'ros.ament_cmake' and name 'franka_gripper'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_hardware' with type 'ros.ament_cmake' and name 'franka_hardware'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_moveit_config) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_moveit_config) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_moveit_config) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_moveit_config) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_moveit_config' with type 'ros.ament_cmake' and name 'franka_moveit_config'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_msgs' with type 'ros.ament_cmake' and name 'franka_msgs'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_robot_state_broadcaster' with type 'ros.ament_cmake' and name 'franka_robot_state_broadcaster'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extension 'ros'
+[0.359s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_semantic_components' with type 'ros.ament_cmake' and name 'franka_semantic_components'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/install) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/install) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/install) ignored
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/integration_launch_testing' with type 'ros.ament_cmake' and name 'integration_launch_testing'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/joint_trajectory_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/joint_trajectory_controller) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/joint_trajectory_controller) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/joint_trajectory_controller) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/joint_trajectory_controller) by extension 'ros'
+[0.363s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/joint_trajectory_controller' with type 'ros.ament_cmake' and name 'joint_trajectory_controller'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/log) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/log) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/log) ignored
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'franka_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robohub/ws/build/franka_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robohub/ws/install/franka_description', 'merge_install': False, 'path': '/home/robohub/ws/src/franka_ros2/franka_description', 'symlink_install': False, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'franka_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robohub/ws/build/franka_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robohub/ws/install/franka_msgs', 'merge_install': False, 'path': '/home/robohub/ws/src/franka_ros2/franka_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'integration_launch_testing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robohub/ws/build/integration_launch_testing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robohub/ws/install/integration_launch_testing', 'merge_install': False, 'path': '/home/robohub/ws/src/franka_ros2/integration_launch_testing', 'symlink_install': False, 'test_result_base': None}
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'joint_trajectory_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robohub/ws/build/joint_trajectory_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robohub/ws/install/joint_trajectory_controller', 'merge_install': False, 'path': '/home/robohub/ws/src/franka_ros2/joint_trajectory_controller', 'symlink_install': False, 'test_result_base': None}
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_clean_first' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_force_configure' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'ament_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'franka_gripper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robohub/ws/build/franka_gripper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robohub/ws/install/franka_gripper', 'merge_install': False, 'path': '/home/robohub/ws/src/franka_ros2/franka_gripper', 'symlink_install': False, 'test_result_base': None}
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'franka_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robohub/ws/build/franka_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robohub/ws/install/franka_hardware', 'merge_install': False, 'path': '/home/robohub/ws/src/franka_ros2/franka_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] DEBUG:colcon.colcon_core.verb:Building package 'franka_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robohub/ws/build/franka_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robohub/ws/install/franka_moveit_config', 'merge_install': False, 'path': '/home/robohub/ws/src/franka_ros2/franka_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_target' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_clean_cache' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] DEBUG:colcon.colcon_core.verb:Building package 'franka_semantic_components' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robohub/ws/build/franka_semantic_components', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robohub/ws/install/franka_semantic_components', 'merge_install': False, 'path': '/home/robohub/ws/src/franka_ros2/franka_semantic_components', 'symlink_install': False, 'test_result_base': None}
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_target' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.402s] DEBUG:colcon.colcon_core.verb:Building package 'franka_example_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robohub/ws/build/franka_example_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robohub/ws/install/franka_example_controllers', 'merge_install': False, 'path': '/home/robohub/ws/src/franka_ros2/franka_example_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.403s] DEBUG:colcon.colcon_core.verb:Building package 'franka_robot_state_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robohub/ws/build/franka_robot_state_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robohub/ws/install/franka_robot_state_broadcaster', 'merge_install': False, 'path': '/home/robohub/ws/src/franka_ros2/franka_robot_state_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_target' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.403s] DEBUG:colcon.colcon_core.verb:Building package 'franka_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robohub/ws/build/franka_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robohub/ws/install/franka_bringup', 'merge_install': False, 'path': '/home/robohub/ws/src/franka_ros2/franka_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.403s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.404s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_description'
+[0.404s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robohub/ws/src/franka_ros2/franka_description' with build type 'ament_cmake'
+[0.404s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robohub/ws/src/franka_ros2/franka_description'
+[0.405s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/robohub/ws/build/franka_description -- -j6 -l6
+[0.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/robohub/ws/build/franka_description -- -j6 -l6
+[0.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/robohub/ws/build/franka_description
+[0.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_description)
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/robohub/ws/build/franka_description
+[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_description' for CMake module files
+[0.536s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_description' for CMake config files
+[0.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_description', 'cmake_prefix_path')
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.dsv'
+[0.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.sh'
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_description/bin'
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_description/lib/pkgconfig/franka_description.pc'
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_description/lib/python3.10/site-packages'
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_description/bin'
+[0.540s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_description/share/franka_description/package.dsv'
+[0.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_description/share/franka_description/package.sh'
+[0.542s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_description/share/colcon-core/packages/franka_description)
+[0.542s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_description)
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_description' for CMake module files
+[0.543s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_description' for CMake config files
+[0.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_description', 'cmake_prefix_path')
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.dsv'
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.sh'
+[0.544s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_description/bin'
+[0.544s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_description/lib/pkgconfig/franka_description.pc'
+[0.544s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_description/lib/python3.10/site-packages'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_description/bin'
+[0.545s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_description/share/franka_description/package.dsv'
+[0.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_description/share/franka_description/package.sh'
+[0.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_description/share/colcon-core/packages/franka_description)
+[0.546s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_description' finished with '0'
+[0.546s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_msgs'
+[0.546s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robohub/ws/src/franka_ros2/franka_msgs' with build type 'ament_cmake'
+[0.546s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robohub/ws/src/franka_ros2/franka_msgs'
+[0.546s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/robohub/ws/build/franka_msgs -- -j6 -l6
+[10.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/robohub/ws/build/franka_msgs -- -j6 -l6
+[10.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/robohub/ws/build/franka_msgs
+[10.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_msgs)
+[10.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/robohub/ws/build/franka_msgs
+[10.739s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_msgs' for CMake module files
+[10.740s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_msgs' for CMake config files
+[10.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_msgs', 'cmake_prefix_path')
+[10.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.dsv'
+[10.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.sh'
+[10.743s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_msgs/lib'
+[10.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_msgs', 'ld_library_path_lib')
+[10.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.dsv'
+[10.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.sh'
+[10.744s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_msgs/bin'
+[10.744s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_msgs/lib/pkgconfig/franka_msgs.pc'
+[10.744s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_msgs/lib/python3.10/site-packages'
+[10.744s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_msgs/bin'
+[10.744s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_msgs/share/franka_msgs/package.dsv'
+[10.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_msgs/share/franka_msgs/package.sh'
+[10.745s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_msgs/share/colcon-core/packages/franka_msgs)
+[10.746s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_msgs)
+[10.746s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_msgs' for CMake module files
+[10.747s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_msgs' for CMake config files
+[10.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_msgs', 'cmake_prefix_path')
+[10.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.dsv'
+[10.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.sh'
+[10.749s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_msgs/lib'
+[10.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_msgs', 'ld_library_path_lib')
+[10.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.dsv'
+[10.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.sh'
+[10.750s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_msgs/bin'
+[10.750s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_msgs/lib/pkgconfig/franka_msgs.pc'
+[10.750s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_msgs/lib/python3.10/site-packages'
+[10.750s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_msgs/bin'
+[10.750s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_msgs/share/franka_msgs/package.dsv'
+[10.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_msgs/share/franka_msgs/package.sh'
+[10.751s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_msgs/share/colcon-core/packages/franka_msgs)
+[10.751s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_msgs' finished with '0'
+[10.751s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'integration_launch_testing'
+[10.752s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robohub/ws/src/franka_ros2/integration_launch_testing' with build type 'ament_cmake'
+[10.752s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robohub/ws/src/franka_ros2/integration_launch_testing'
+[10.752s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/integration_launch_testing': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/robohub/ws/build/integration_launch_testing -- -j6 -l6
+[11.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/robohub/ws/build/integration_launch_testing -- -j6 -l6
+[11.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/integration_launch_testing': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/robohub/ws/build/integration_launch_testing
+[11.023s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(integration_launch_testing)
+[11.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/robohub/ws/build/integration_launch_testing
+[11.024s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/integration_launch_testing' for CMake module files
+[11.024s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/integration_launch_testing' for CMake config files
+[11.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('integration_launch_testing', 'cmake_prefix_path')
+[11.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.dsv'
+[11.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.sh'
+[11.026s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/integration_launch_testing/bin'
+[11.026s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/integration_launch_testing/lib/pkgconfig/integration_launch_testing.pc'
+[11.026s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/integration_launch_testing/lib/python3.10/site-packages'
+[11.026s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/integration_launch_testing/bin'
+[11.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/integration_launch_testing/share/integration_launch_testing/package.dsv'
+[11.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/integration_launch_testing/share/integration_launch_testing/package.sh'
+[11.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/integration_launch_testing/share/colcon-core/packages/integration_launch_testing)
+[11.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(integration_launch_testing)
+[11.028s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/integration_launch_testing' for CMake module files
+[11.028s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/integration_launch_testing' for CMake config files
+[11.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('integration_launch_testing', 'cmake_prefix_path')
+[11.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.dsv'
+[11.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.sh'
+[11.030s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/integration_launch_testing/bin'
+[11.030s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/integration_launch_testing/lib/pkgconfig/integration_launch_testing.pc'
+[11.030s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/integration_launch_testing/lib/python3.10/site-packages'
+[11.030s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/integration_launch_testing/bin'
+[11.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/integration_launch_testing/share/integration_launch_testing/package.dsv'
+[11.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/integration_launch_testing/share/integration_launch_testing/package.sh'
+[11.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/integration_launch_testing/share/colcon-core/packages/integration_launch_testing)
+[11.031s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'integration_launch_testing' finished with '0'
+[11.031s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'joint_trajectory_controller'
+[11.031s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robohub/ws/src/franka_ros2/joint_trajectory_controller' with build type 'ament_cmake'
+[11.032s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robohub/ws/src/franka_ros2/joint_trajectory_controller'
+[11.032s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/robohub/ws/build/joint_trajectory_controller -- -j6 -l6
+[46.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/robohub/ws/build/joint_trajectory_controller -- -j6 -l6
+[46.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/robohub/ws/build/joint_trajectory_controller
+[46.207s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joint_trajectory_controller)
+[46.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/robohub/ws/build/joint_trajectory_controller
+[46.207s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/joint_trajectory_controller' for CMake module files
+[46.208s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/joint_trajectory_controller' for CMake config files
+[46.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_trajectory_controller', 'cmake_prefix_path')
+[46.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/cmake_prefix_path.dsv'
+[46.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/cmake_prefix_path.sh'
+[46.210s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/joint_trajectory_controller/lib'
+[46.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_trajectory_controller', 'ld_library_path_lib')
+[46.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/ld_library_path_lib.dsv'
+[46.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/ld_library_path_lib.sh'
+[46.211s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/joint_trajectory_controller/bin'
+[46.211s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/joint_trajectory_controller/lib/pkgconfig/joint_trajectory_controller.pc'
+[46.211s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/joint_trajectory_controller/lib/python3.10/site-packages'
+[46.212s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/joint_trajectory_controller/bin'
+[46.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv'
+[46.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.sh'
+[46.212s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/joint_trajectory_controller/share/colcon-core/packages/joint_trajectory_controller)
+[46.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joint_trajectory_controller)
+[46.213s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/joint_trajectory_controller' for CMake module files
+[46.213s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/joint_trajectory_controller' for CMake config files
+[46.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_trajectory_controller', 'cmake_prefix_path')
+[46.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/cmake_prefix_path.dsv'
+[46.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/cmake_prefix_path.sh'
+[46.215s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/joint_trajectory_controller/lib'
+[46.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_trajectory_controller', 'ld_library_path_lib')
+[46.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/ld_library_path_lib.dsv'
+[46.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/ld_library_path_lib.sh'
+[46.216s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/joint_trajectory_controller/bin'
+[46.216s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/joint_trajectory_controller/lib/pkgconfig/joint_trajectory_controller.pc'
+[46.216s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/joint_trajectory_controller/lib/python3.10/site-packages'
+[46.216s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/joint_trajectory_controller/bin'
+[46.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv'
+[46.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.sh'
+[46.217s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/joint_trajectory_controller/share/colcon-core/packages/joint_trajectory_controller)
+[46.218s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'joint_trajectory_controller' finished with '0'
+[46.218s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_gripper'
+[46.218s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robohub/ws/src/franka_ros2/franka_gripper' with build type 'ament_cmake'
+[46.218s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robohub/ws/src/franka_ros2/franka_gripper'
+[46.218s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[46.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robohub/ws/build/franka_gripper -- -j6 -l6
+[58.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_gripper' returned '0': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robohub/ws/build/franka_gripper -- -j6 -l6
+[58.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robohub/ws/build/franka_gripper
+[58.834s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_gripper)
+[58.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_gripper' returned '0': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robohub/ws/build/franka_gripper
+[58.835s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_gripper' for CMake module files
+[58.835s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_gripper' for CMake config files
+[58.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_gripper', 'cmake_prefix_path')
+[58.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_gripper/share/franka_gripper/hook/cmake_prefix_path.dsv'
+[58.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_gripper/share/franka_gripper/hook/cmake_prefix_path.sh'
+[58.837s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_gripper/lib'
+[58.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_gripper', 'ld_library_path_lib')
+[58.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_gripper/share/franka_gripper/hook/ld_library_path_lib.dsv'
+[58.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_gripper/share/franka_gripper/hook/ld_library_path_lib.sh'
+[58.838s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_gripper/bin'
+[58.838s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_gripper/lib/pkgconfig/franka_gripper.pc'
+[58.838s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_gripper/lib/python3.10/site-packages'
+[58.839s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_gripper/bin'
+[58.839s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_gripper/share/franka_gripper/package.dsv'
+[58.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_gripper/share/franka_gripper/package.sh'
+[58.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_gripper/share/colcon-core/packages/franka_gripper)
+[58.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_gripper)
+[58.841s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_gripper' for CMake module files
+[58.841s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_gripper' for CMake config files
+[58.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_gripper', 'cmake_prefix_path')
+[58.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_gripper/share/franka_gripper/hook/cmake_prefix_path.dsv'
+[58.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_gripper/share/franka_gripper/hook/cmake_prefix_path.sh'
+[58.842s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_gripper/lib'
+[58.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_gripper', 'ld_library_path_lib')
+[58.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_gripper/share/franka_gripper/hook/ld_library_path_lib.dsv'
+[58.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_gripper/share/franka_gripper/hook/ld_library_path_lib.sh'
+[58.843s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_gripper/bin'
+[58.843s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_gripper/lib/pkgconfig/franka_gripper.pc'
+[58.843s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_gripper/lib/python3.10/site-packages'
+[58.844s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_gripper/bin'
+[58.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_gripper/share/franka_gripper/package.dsv'
+[58.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_gripper/share/franka_gripper/package.sh'
+[58.845s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_gripper/share/colcon-core/packages/franka_gripper)
+[58.845s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_gripper' finished with '0'
+[58.845s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_hardware'
+[58.845s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robohub/ws/src/franka_ros2/franka_hardware' with build type 'ament_cmake'
+[58.845s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robohub/ws/src/franka_ros2/franka_hardware'
+[58.845s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[58.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_hardware': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robohub/ws/build/franka_hardware -- -j6 -l6
+[73.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_hardware' returned '0': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robohub/ws/build/franka_hardware -- -j6 -l6
+[73.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_hardware': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robohub/ws/build/franka_hardware
+[73.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_hardware)
+[73.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_hardware' returned '0': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robohub/ws/build/franka_hardware
+[73.569s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_hardware' for CMake module files
+[73.569s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_hardware' for CMake config files
+[73.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_hardware', 'cmake_prefix_path')
+[73.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_hardware/share/franka_hardware/hook/cmake_prefix_path.dsv'
+[73.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_hardware/share/franka_hardware/hook/cmake_prefix_path.sh'
+[73.571s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_hardware/lib'
+[73.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_hardware', 'ld_library_path_lib')
+[73.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_hardware/share/franka_hardware/hook/ld_library_path_lib.dsv'
+[73.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_hardware/share/franka_hardware/hook/ld_library_path_lib.sh'
+[73.572s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_hardware/bin'
+[73.572s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_hardware/lib/pkgconfig/franka_hardware.pc'
+[73.572s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_hardware/lib/python3.10/site-packages'
+[73.572s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_hardware/bin'
+[73.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_hardware/share/franka_hardware/package.dsv'
+[73.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_hardware/share/franka_hardware/package.sh'
+[73.573s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_hardware/share/colcon-core/packages/franka_hardware)
+[73.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_hardware)
+[73.574s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_hardware' for CMake module files
+[73.575s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_hardware' for CMake config files
+[73.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_hardware', 'cmake_prefix_path')
+[73.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_hardware/share/franka_hardware/hook/cmake_prefix_path.dsv'
+[73.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_hardware/share/franka_hardware/hook/cmake_prefix_path.sh'
+[73.576s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_hardware/lib'
+[73.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_hardware', 'ld_library_path_lib')
+[73.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_hardware/share/franka_hardware/hook/ld_library_path_lib.dsv'
+[73.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_hardware/share/franka_hardware/hook/ld_library_path_lib.sh'
+[73.577s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_hardware/bin'
+[73.577s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_hardware/lib/pkgconfig/franka_hardware.pc'
+[73.577s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_hardware/lib/python3.10/site-packages'
+[73.577s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_hardware/bin'
+[73.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_hardware/share/franka_hardware/package.dsv'
+[73.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_hardware/share/franka_hardware/package.sh'
+[73.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_hardware/share/colcon-core/packages/franka_hardware)
+[73.579s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_hardware' finished with '0'
+[73.579s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_moveit_config'
+[73.579s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robohub/ws/src/franka_ros2/franka_moveit_config' with build type 'ament_cmake'
+[73.579s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robohub/ws/src/franka_ros2/franka_moveit_config'
+[73.579s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[73.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_moveit_config': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_gripper:/home/robohub/ws/install/franka_msgs:/home/robohub/ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_gripper:/home/robohub/ws/install/franka_msgs:/home/robohub/ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_gripper/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robohub/ws/build/franka_moveit_config -- -j6 -l6
+[74.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_gripper:/home/robohub/ws/install/franka_msgs:/home/robohub/ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_gripper:/home/robohub/ws/install/franka_msgs:/home/robohub/ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_gripper/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robohub/ws/build/franka_moveit_config -- -j6 -l6
+[74.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_moveit_config': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_gripper:/home/robohub/ws/install/franka_msgs:/home/robohub/ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_gripper:/home/robohub/ws/install/franka_msgs:/home/robohub/ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_gripper/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robohub/ws/build/franka_moveit_config
+[74.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_moveit_config)
+[74.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_gripper:/home/robohub/ws/install/franka_msgs:/home/robohub/ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_gripper:/home/robohub/ws/install/franka_msgs:/home/robohub/ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_gripper/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robohub/ws/build/franka_moveit_config
+[74.222s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_moveit_config' for CMake module files
+[74.222s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_moveit_config' for CMake config files
+[74.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_moveit_config', 'cmake_prefix_path')
+[74.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_moveit_config/share/franka_moveit_config/hook/cmake_prefix_path.dsv'
+[74.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_moveit_config/share/franka_moveit_config/hook/cmake_prefix_path.sh'
+[74.224s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_moveit_config/bin'
+[74.224s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_moveit_config/lib/pkgconfig/franka_moveit_config.pc'
+[74.225s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_moveit_config/lib/python3.10/site-packages'
+[74.225s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_moveit_config/bin'
+[74.225s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_moveit_config/share/franka_moveit_config/package.dsv'
+[74.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_moveit_config/share/franka_moveit_config/package.sh'
+[74.226s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_moveit_config/share/colcon-core/packages/franka_moveit_config)
+[74.226s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_moveit_config)
+[74.226s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_moveit_config' for CMake module files
+[74.227s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_moveit_config' for CMake config files
+[74.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_moveit_config', 'cmake_prefix_path')
+[74.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_moveit_config/share/franka_moveit_config/hook/cmake_prefix_path.dsv'
+[74.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_moveit_config/share/franka_moveit_config/hook/cmake_prefix_path.sh'
+[74.228s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_moveit_config/bin'
+[74.228s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_moveit_config/lib/pkgconfig/franka_moveit_config.pc'
+[74.228s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_moveit_config/lib/python3.10/site-packages'
+[74.229s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_moveit_config/bin'
+[74.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_moveit_config/share/franka_moveit_config/package.dsv'
+[74.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_moveit_config/share/franka_moveit_config/package.sh'
+[74.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_moveit_config/share/colcon-core/packages/franka_moveit_config)
+[74.230s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_moveit_config' finished with '0'
+[74.230s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_semantic_components'
+[74.230s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robohub/ws/src/franka_ros2/franka_semantic_components' with build type 'ament_cmake'
+[74.230s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robohub/ws/src/franka_ros2/franka_semantic_components'
+[74.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[74.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_semantic_components': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robohub/ws/build/franka_semantic_components -- -j6 -l6
+[85.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_semantic_components' returned '0': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robohub/ws/build/franka_semantic_components -- -j6 -l6
+[85.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_semantic_components': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robohub/ws/build/franka_semantic_components
+[85.796s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_semantic_components)
+[85.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_semantic_components' returned '0': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robohub/ws/build/franka_semantic_components
+[85.796s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_semantic_components' for CMake module files
+[85.796s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_semantic_components' for CMake config files
+[85.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_semantic_components', 'cmake_prefix_path')
+[85.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_semantic_components/share/franka_semantic_components/hook/cmake_prefix_path.dsv'
+[85.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_semantic_components/share/franka_semantic_components/hook/cmake_prefix_path.sh'
+[85.798s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_semantic_components/lib'
+[85.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_semantic_components', 'ld_library_path_lib')
+[85.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_semantic_components/share/franka_semantic_components/hook/ld_library_path_lib.dsv'
+[85.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_semantic_components/share/franka_semantic_components/hook/ld_library_path_lib.sh'
+[85.799s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_semantic_components/bin'
+[85.799s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_semantic_components/lib/pkgconfig/franka_semantic_components.pc'
+[85.799s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_semantic_components/lib/python3.10/site-packages'
+[85.800s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_semantic_components/bin'
+[85.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_semantic_components/share/franka_semantic_components/package.dsv'
+[85.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_semantic_components/share/franka_semantic_components/package.sh'
+[85.801s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_semantic_components/share/colcon-core/packages/franka_semantic_components)
+[85.801s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_semantic_components)
+[85.801s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_semantic_components' for CMake module files
+[85.802s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_semantic_components' for CMake config files
+[85.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_semantic_components', 'cmake_prefix_path')
+[85.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_semantic_components/share/franka_semantic_components/hook/cmake_prefix_path.dsv'
+[85.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_semantic_components/share/franka_semantic_components/hook/cmake_prefix_path.sh'
+[85.803s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_semantic_components/lib'
+[85.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_semantic_components', 'ld_library_path_lib')
+[85.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_semantic_components/share/franka_semantic_components/hook/ld_library_path_lib.dsv'
+[85.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_semantic_components/share/franka_semantic_components/hook/ld_library_path_lib.sh'
+[85.804s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_semantic_components/bin'
+[85.804s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_semantic_components/lib/pkgconfig/franka_semantic_components.pc'
+[85.804s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_semantic_components/lib/python3.10/site-packages'
+[85.804s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_semantic_components/bin'
+[85.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_semantic_components/share/franka_semantic_components/package.dsv'
+[85.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_semantic_components/share/franka_semantic_components/package.sh'
+[85.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_semantic_components/share/colcon-core/packages/franka_semantic_components)
+[85.806s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_semantic_components' finished with '0'
+[85.806s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_example_controllers'
+[85.806s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robohub/ws/src/franka_ros2/franka_example_controllers' with build type 'ament_cmake'
+[85.806s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robohub/ws/src/franka_ros2/franka_example_controllers'
+[85.806s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[85.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_example_controllers': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_semantic_components/lib:/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robohub/ws/build/franka_example_controllers -- -j6 -l6
+[104.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_example_controllers' returned '0': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_semantic_components/lib:/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robohub/ws/build/franka_example_controllers -- -j6 -l6
+[104.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_example_controllers': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_semantic_components/lib:/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robohub/ws/build/franka_example_controllers
+[104.178s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_example_controllers)
+[104.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_example_controllers' returned '0': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_semantic_components/lib:/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robohub/ws/build/franka_example_controllers
+[104.179s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_example_controllers' for CMake module files
+[104.179s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_example_controllers' for CMake config files
+[104.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_example_controllers', 'cmake_prefix_path')
+[104.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_example_controllers/share/franka_example_controllers/hook/cmake_prefix_path.dsv'
+[104.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_example_controllers/share/franka_example_controllers/hook/cmake_prefix_path.sh'
+[104.181s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_example_controllers/lib'
+[104.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_example_controllers', 'ld_library_path_lib')
+[104.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_example_controllers/share/franka_example_controllers/hook/ld_library_path_lib.dsv'
+[104.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_example_controllers/share/franka_example_controllers/hook/ld_library_path_lib.sh'
+[104.182s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_example_controllers/bin'
+[104.182s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_example_controllers/lib/pkgconfig/franka_example_controllers.pc'
+[104.182s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_example_controllers/lib/python3.10/site-packages'
+[104.183s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_example_controllers/bin'
+[104.183s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_example_controllers/share/franka_example_controllers/package.dsv'
+[104.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_example_controllers/share/franka_example_controllers/package.sh'
+[104.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_example_controllers/share/colcon-core/packages/franka_example_controllers)
+[104.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_example_controllers)
+[104.184s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_example_controllers' for CMake module files
+[104.185s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_example_controllers' for CMake config files
+[104.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_example_controllers', 'cmake_prefix_path')
+[104.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_example_controllers/share/franka_example_controllers/hook/cmake_prefix_path.dsv'
+[104.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_example_controllers/share/franka_example_controllers/hook/cmake_prefix_path.sh'
+[104.186s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_example_controllers/lib'
+[104.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_example_controllers', 'ld_library_path_lib')
+[104.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_example_controllers/share/franka_example_controllers/hook/ld_library_path_lib.dsv'
+[104.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_example_controllers/share/franka_example_controllers/hook/ld_library_path_lib.sh'
+[104.187s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_example_controllers/bin'
+[104.187s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_example_controllers/lib/pkgconfig/franka_example_controllers.pc'
+[104.187s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_example_controllers/lib/python3.10/site-packages'
+[104.187s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_example_controllers/bin'
+[104.187s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_example_controllers/share/franka_example_controllers/package.dsv'
+[104.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_example_controllers/share/franka_example_controllers/package.sh'
+[104.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_example_controllers/share/colcon-core/packages/franka_example_controllers)
+[104.188s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_example_controllers' finished with '0'
+[104.189s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_robot_state_broadcaster'
+[104.189s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robohub/ws/src/franka_ros2/franka_robot_state_broadcaster' with build type 'ament_cmake'
+[104.189s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robohub/ws/src/franka_ros2/franka_robot_state_broadcaster'
+[104.189s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[104.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_robot_state_broadcaster': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_semantic_components/lib:/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robohub/ws/build/franka_robot_state_broadcaster -- -j6 -l6
+[117.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_robot_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_semantic_components/lib:/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robohub/ws/build/franka_robot_state_broadcaster -- -j6 -l6
+[117.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_robot_state_broadcaster': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_semantic_components/lib:/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robohub/ws/build/franka_robot_state_broadcaster
+[117.465s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_robot_state_broadcaster)
+[117.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_robot_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_semantic_components/lib:/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robohub/ws/build/franka_robot_state_broadcaster
+[117.465s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_robot_state_broadcaster' for CMake module files
+[117.466s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_robot_state_broadcaster' for CMake config files
+[117.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_robot_state_broadcaster', 'cmake_prefix_path')
+[117.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/cmake_prefix_path.dsv'
+[117.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/cmake_prefix_path.sh'
+[117.467s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_robot_state_broadcaster/lib'
+[117.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_robot_state_broadcaster', 'ld_library_path_lib')
+[117.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/ld_library_path_lib.dsv'
+[117.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/ld_library_path_lib.sh'
+[117.468s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_robot_state_broadcaster/bin'
+[117.468s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_robot_state_broadcaster/lib/pkgconfig/franka_robot_state_broadcaster.pc'
+[117.469s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_robot_state_broadcaster/lib/python3.10/site-packages'
+[117.469s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_robot_state_broadcaster/bin'
+[117.469s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.dsv'
+[117.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.sh'
+[117.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_robot_state_broadcaster/share/colcon-core/packages/franka_robot_state_broadcaster)
+[117.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_robot_state_broadcaster)
+[117.471s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_robot_state_broadcaster' for CMake module files
+[117.471s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_robot_state_broadcaster' for CMake config files
+[117.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_robot_state_broadcaster', 'cmake_prefix_path')
+[117.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/cmake_prefix_path.dsv'
+[117.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/cmake_prefix_path.sh'
+[117.472s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_robot_state_broadcaster/lib'
+[117.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_robot_state_broadcaster', 'ld_library_path_lib')
+[117.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/ld_library_path_lib.dsv'
+[117.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/ld_library_path_lib.sh'
+[117.473s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_robot_state_broadcaster/bin'
+[117.473s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_robot_state_broadcaster/lib/pkgconfig/franka_robot_state_broadcaster.pc'
+[117.473s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_robot_state_broadcaster/lib/python3.10/site-packages'
+[117.474s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_robot_state_broadcaster/bin'
+[117.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.dsv'
+[117.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.sh'
+[117.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_robot_state_broadcaster/share/colcon-core/packages/franka_robot_state_broadcaster)
+[117.475s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_robot_state_broadcaster' finished with '0'
+[117.475s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_bringup'
+[117.475s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robohub/ws/src/franka_ros2/franka_bringup' with build type 'ament_cmake'
+[117.475s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robohub/ws/src/franka_ros2/franka_bringup'
+[117.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[117.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_bringup': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_robot_state_broadcaster:/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/home/robohub/ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_robot_state_broadcaster:/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/home/robohub/ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_robot_state_broadcaster/lib:/home/robohub/ws/install/franka_semantic_components/lib:/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robohub/ws/build/franka_bringup -- -j6 -l6
+[117.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_bringup' returned '0': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_robot_state_broadcaster:/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/home/robohub/ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_robot_state_broadcaster:/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/home/robohub/ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_robot_state_broadcaster/lib:/home/robohub/ws/install/franka_semantic_components/lib:/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robohub/ws/build/franka_bringup -- -j6 -l6
+[117.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robohub/ws/build/franka_bringup': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_robot_state_broadcaster:/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/home/robohub/ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_robot_state_broadcaster:/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/home/robohub/ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_robot_state_broadcaster/lib:/home/robohub/ws/install/franka_semantic_components/lib:/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robohub/ws/build/franka_bringup
+[117.740s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_bringup)
+[117.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robohub/ws/build/franka_bringup' returned '0': AMENT_PREFIX_PATH=/home/robohub/ws/install/franka_robot_state_broadcaster:/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/home/robohub/ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robohub/ws/install/franka_robot_state_broadcaster:/home/robohub/ws/install/franka_semantic_components:/home/robohub/ws/install/franka_hardware:/home/robohub/ws/install/franka_msgs:/home/robohub/ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/robohub/ws/install/franka_robot_state_broadcaster/lib:/home/robohub/ws/install/franka_semantic_components/lib:/home/robohub/ws/install/franka_hardware/lib:/home/robohub/ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\033[01;32m\]\u@docker\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robohub/ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robohub/ws/build/franka_bringup
+[117.741s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_bringup' for CMake module files
+[117.741s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_bringup' for CMake config files
+[117.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_bringup', 'cmake_prefix_path')
+[117.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_bringup/share/franka_bringup/hook/cmake_prefix_path.dsv'
+[117.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_bringup/share/franka_bringup/hook/cmake_prefix_path.sh'
+[117.743s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_bringup/bin'
+[117.743s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_bringup/lib/pkgconfig/franka_bringup.pc'
+[117.743s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_bringup/lib/python3.10/site-packages'
+[117.744s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_bringup/bin'
+[117.744s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_bringup/share/franka_bringup/package.dsv'
+[117.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_bringup/share/franka_bringup/package.sh'
+[117.745s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_bringup/share/colcon-core/packages/franka_bringup)
+[117.745s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_bringup)
+[117.745s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_bringup' for CMake module files
+[117.746s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_bringup' for CMake config files
+[117.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_bringup', 'cmake_prefix_path')
+[117.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robohub/ws/install/franka_bringup/share/franka_bringup/hook/cmake_prefix_path.dsv'
+[117.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robohub/ws/install/franka_bringup/share/franka_bringup/hook/cmake_prefix_path.sh'
+[117.747s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_bringup/bin'
+[117.747s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_bringup/lib/pkgconfig/franka_bringup.pc'
+[117.747s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_bringup/lib/python3.10/site-packages'
+[117.747s] Level 1:colcon.colcon_core.environment:checking '/home/robohub/ws/install/franka_bringup/bin'
+[117.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robohub/ws/install/franka_bringup/share/franka_bringup/package.dsv'
+[117.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/robohub/ws/install/franka_bringup/share/franka_bringup/package.sh'
+[117.748s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robohub/ws/install/franka_bringup/share/colcon-core/packages/franka_bringup)
+[117.749s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'franka_bringup' finished with '0'
+[117.749s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[117.749s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[117.749s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[117.749s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[117.749s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robohub/ws/install/local_setup.sh'
+[117.750s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robohub/ws/install/_local_setup_util_sh.py'
+[117.751s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robohub/ws/install/setup.sh'

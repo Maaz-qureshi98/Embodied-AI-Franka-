@@ -1,0 +1,11 @@
+{
+  "package_name": "franka_msgs",
+  "non_idl_tuples": [
+    "/home/robohub/ws/src/franka_ros2/franka_msgs:action/Grasp.action",
+    "/home/robohub/ws/src/franka_ros2/franka_msgs:action/Homing.action",
+    "/home/robohub/ws/src/franka_ros2/franka_msgs:action/Move.action",
+    "/home/robohub/ws/src/franka_ros2/franka_msgs:msg/Errors.msg",
+    "/home/robohub/ws/src/franka_ros2/franka_msgs:msg/GraspEpsilon.msg",
+    "/home/robohub/ws/src/franka_ros2/franka_msgs:msg/FrankaRobotState.msg"
+  ]
+}

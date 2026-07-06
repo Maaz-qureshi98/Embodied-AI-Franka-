@@ -1,0 +1,59 @@
+[WARN] [1783352751.090745422] [move_group.move_group]: Falling back to using the the move_group node namespace (deprecated behavior).
+[INFO] [1783352751.093833372] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.00292549 seconds
+[INFO] [1783352751.096635433] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+[WARN] [1783352751.097437148] [moveit_robot_model.robot_model]: Link panda_leftfinger has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1783352751.097451214] [moveit_robot_model.robot_model]: Link panda_rightfinger has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[INFO] [1783352751.126879116] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[INFO] [1783352751.132068386] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[INFO] [1783352751.134443347] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[INFO] [1783352751.135073121] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[INFO] [1783352751.135088855] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1783352751.135263581] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[INFO] [1783352751.135273723] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[INFO] [1783352751.136089339] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[INFO] [1783352751.136702831] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[WARN] [1783352751.136899673] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[ERROR] [1783352751.136910111] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[INFO] [1783352751.142636362] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'move_group'
+[INFO] [1783352751.175918185] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[INFO] [1783352751.181850638] [moveit_ros.add_time_optimal_parameterization]: Param 'move_group.path_tolerance' was not set. Using default value: 0.100000
+[INFO] [1783352751.181872899] [moveit_ros.add_time_optimal_parameterization]: Param 'move_group.resample_dt' was not set. Using default value: 0.100000
+[INFO] [1783352751.181878067] [moveit_ros.add_time_optimal_parameterization]: Param 'move_group.min_angle_change' was not set. Using default value: 0.001000
+[INFO] [1783352751.181896253] [moveit_ros.fix_workspace_bounds]: Param 'move_group.default_workspace_bounds' was not set. Using default value: 10.000000
+[INFO] [1783352751.181910149] [moveit_ros.fix_start_state_bounds]: Param 'move_group.start_state_max_bounds_error' was set to 0.100000
+[INFO] [1783352751.181915552] [moveit_ros.fix_start_state_bounds]: Param 'move_group.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1783352751.181925321] [moveit_ros.fix_start_state_collision]: Param 'move_group.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1783352751.181929964] [moveit_ros.fix_start_state_collision]: Param 'move_group.jiggle_fraction' was not set. Using default value: 0.020000
+[INFO] [1783352751.181934539] [moveit_ros.fix_start_state_collision]: Param 'move_group.max_sampling_attempts' was not set. Using default value: 100
+[INFO] [1783352751.181943912] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[INFO] [1783352751.181947774] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[INFO] [1783352751.181951005] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[INFO] [1783352751.181954446] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[INFO] [1783352751.181957599] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[INFO] [1783352751.181960719] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[INFO] [1783352751.249823526] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for panda_arm_controller
+[INFO] [1783352751.249856561] [moveit.plugins.moveit_simple_controller_manager]: Max effort set to 0.0
+[INFO] [1783352751.261581720] [moveit.plugins.moveit_simple_controller_manager]: Added GripperCommand controller for panda_gripper
+[INFO] [1783352751.261986742] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1783352751.262006198] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1783352751.264831263] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[INFO] [1783352751.264852032] [move_group.move_group]: MoveGroup debug mode is ON
+[INFO] [1783352751.313180956] [move_group.move_group]: 
+
+********************************************************
+* MoveGroup using: 
+*     - ApplyPlanningSceneService
+*     - ClearOctomapService
+*     - CartesianPathService
+*     - ExecuteTrajectoryAction
+*     - GetPlanningSceneService
+*     - KinematicsService
+*     - MoveAction
+*     - MotionPlanService
+*     - QueryPlannersService
+*     - StateValidationService
+********************************************************
+
+[INFO] [1783352751.313217629] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[INFO] [1783352751.313226171] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[INFO] [1783352752.025901344] [rclcpp]: signal_handler(SIGINT/SIGTERM)

@@ -1,0 +1,74 @@
+1783352750.1623795 [INFO] [launch]: All log files can be found below /home/robohub/.ros/log/2026-07-06-11-45-50-161621-labwork4-526
+1783352750.1624935 [INFO] [launch]: Default logging verbosity is set to INFO
+1783352751.0229030 [INFO] [rviz2-1]: process started with pid [533]
+1783352751.0236676 [INFO] [robot_state_publisher-2]: process started with pid [535]
+1783352751.0237675 [INFO] [move_group-3]: process started with pid [537]
+1783352751.0238419 [INFO] [ros2_control_node-4]: process started with pid [539]
+1783352751.0239089 [INFO] [joint_state_publisher-5]: process started with pid [541]
+1783352751.0239725 [INFO] [spawner-6]: process started with pid [543]
+1783352751.0240340 [INFO] [franka_gripper_node-7]: process started with pid [545]
+1783352751.0240953 [INFO] [ros2 run controller_manager spawner panda_arm_controller-8]: process started with pid [547]
+1783352751.0241561 [INFO] [ros2 run controller_manager spawner joint_state_broadcaster-9]: process started with pid [551]
+1783352751.0572484 [robot_state_publisher-2] [INFO] [1783352751.055996005] [robot_state_publisher]: got segment panda_hand
+1783352751.0574882 [robot_state_publisher-2] [INFO] [1783352751.056087401] [robot_state_publisher]: got segment panda_hand_tcp
+1783352751.0576327 [robot_state_publisher-2] [INFO] [1783352751.056096627] [robot_state_publisher]: got segment panda_leftfinger
+1783352751.0577180 [robot_state_publisher-2] [INFO] [1783352751.056101493] [robot_state_publisher]: got segment panda_link0
+1783352751.0578568 [robot_state_publisher-2] [INFO] [1783352751.056105926] [robot_state_publisher]: got segment panda_link1
+1783352751.0579345 [robot_state_publisher-2] [INFO] [1783352751.056110470] [robot_state_publisher]: got segment panda_link2
+1783352751.0580633 [robot_state_publisher-2] [INFO] [1783352751.056114850] [robot_state_publisher]: got segment panda_link3
+1783352751.0581384 [robot_state_publisher-2] [INFO] [1783352751.056119188] [robot_state_publisher]: got segment panda_link4
+1783352751.0582371 [robot_state_publisher-2] [INFO] [1783352751.056123463] [robot_state_publisher]: got segment panda_link5
+1783352751.0583057 [robot_state_publisher-2] [INFO] [1783352751.056128077] [robot_state_publisher]: got segment panda_link6
+1783352751.0584061 [robot_state_publisher-2] [INFO] [1783352751.056132359] [robot_state_publisher]: got segment panda_link7
+1783352751.0585437 [robot_state_publisher-2] [INFO] [1783352751.056136624] [robot_state_publisher]: got segment panda_link8
+1783352751.0595536 [robot_state_publisher-2] [INFO] [1783352751.056141045] [robot_state_publisher]: got segment panda_rightfinger
+1783352751.0964189 [rviz2-1] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-robohub'
+1783352751.1086442 [franka_gripper_node-7] [INFO] [1783352751.107646730] [panda_gripper]: Trying to establish a connection with the gripper
+1783352751.1100726 [franka_gripper_node-7] [INFO] [1783352751.109912734] [panda_gripper]: Connected to gripper
+1783352751.2859185 [rviz2-1] libGL error: glx: failed to create dri3 screen
+1783352751.2860289 [rviz2-1] libGL error: failed to load driver: nouveau
+1783352751.3953786 [rviz2-1] libGL error: glx: failed to create dri3 screen
+1783352751.3964863 [rviz2-1] libGL error: failed to load driver: nouveau
+1783352751.4707839 [rviz2-1] [INFO] [1783352751.470455545] [rviz2]: Stereo is NOT SUPPORTED
+1783352751.4709051 [rviz2-1] [INFO] [1783352751.470602495] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+1783352751.4876161 [rviz2-1] [INFO] [1783352751.487379131] [rviz2]: Stereo is NOT SUPPORTED
+1783352751.5511963 [joint_state_publisher-5] [INFO] [1783352751.550994781] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1783352751.6467969 [rviz2-1] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1783352751.6469262 [rviz2-1]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1783352751.6663921 [rviz2-1] [INFO] [1783352751.665744371] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.00728878 seconds
+1783352751.6666887 [rviz2-1] [INFO] [1783352751.665795278] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+1783352751.6668713 [rviz2-1] [WARN] [1783352751.665913399] [moveit_robot_model.robot_model]: Link panda_leftfinger has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1783352751.6670179 [rviz2-1] [WARN] [1783352751.665922490] [moveit_robot_model.robot_model]: Link panda_rightfinger has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1783352751.8675218 [INFO] [spawner-6]: process has finished cleanly [pid 543]
+1783352751.9246149 [INFO] [ros2 run controller_manager spawner joint_state_broadcaster-9]: process has finished cleanly [pid 551]
+1783352752.0203581 [ERROR] [ros2_control_node-4]: process has died [pid 539, exit code -6, cmd '/opt/ros/humble/lib/controller_manager/ros2_control_node --ros-args --params-file /tmp/launch_params_u3blp82l --params-file /home/robohub/ws/install/franka_moveit_config/share/franka_moveit_config/config/panda_ros_controllers.yaml -r joint_states:=franka/joint_states'].
+1783352752.0206258 [INFO] [launch]: process[ros2_control_node-4] was required: shutting down launched system
+1783352752.0231807 [INFO] [ros2 run controller_manager spawner panda_arm_controller-8]: sending signal 'SIGINT' to process[ros2 run controller_manager spawner panda_arm_controller-8]
+1783352752.0239441 [INFO] [franka_gripper_node-7]: sending signal 'SIGINT' to process[franka_gripper_node-7]
+1783352752.0247529 [INFO] [joint_state_publisher-5]: sending signal 'SIGINT' to process[joint_state_publisher-5]
+1783352752.0255220 [INFO] [move_group-3]: sending signal 'SIGINT' to process[move_group-3]
+1783352752.0263290 [INFO] [robot_state_publisher-2]: sending signal 'SIGINT' to process[robot_state_publisher-2]
+1783352752.0271456 [INFO] [rviz2-1]: sending signal 'SIGINT' to process[rviz2-1]
+1783352752.0287619 [franka_gripper_node-7] [INFO] [1783352752.024053678] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+1783352752.0302813 [robot_state_publisher-2] [INFO] [1783352752.026464194] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+1783352752.0306926 [rviz2-1] [INFO] [1783352752.028734886] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+1783352752.0310609 [rviz2-1] [ERROR] [1783352752.029134156] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1783352752.0347269 [rviz2-1] 
+1783352752.0348580 [rviz2-1] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+1783352752.0350604 [rviz2-1] This error state is being overwritten:
+1783352752.0351176 [rviz2-1] 
+1783352752.0351670 [rviz2-1]   'rcl node's context is invalid, at ./src/rcl/node.c:428'
+1783352752.0353479 [rviz2-1] 
+1783352752.0354016 [rviz2-1] with this new error message:
+1783352752.0355511 [rviz2-1] 
+1783352752.0356445 [rviz2-1]   'the given context is not valid, either rcl_init() was not called or rcl_shutdown() was called., at ./src/rcl/guard_condition.c:67'
+1783352752.0357301 [rviz2-1] 
+1783352752.0357757 [rviz2-1] rcutils_reset_error() should be called after error handling to avoid this.
+1783352752.0358181 [rviz2-1] <<<
+1783352752.0361052 [rviz2-1] [ERROR] [1783352752.034463030] [rviz2]: Could not load display config: failed to create guard condition: the given context is not valid, either rcl_init() was not called or rcl_shutdown() was called., at ./src/rcl/guard_condition.c:67
+1783352752.0887151 [ERROR] [ros2 run controller_manager spawner panda_arm_controller-8]: process has died [pid 547, exit code -2, cmd 'ros2 run controller_manager spawner panda_arm_controller'].
+1783352752.1373639 [INFO] [robot_state_publisher-2]: process has finished cleanly [pid 535]
+1783352752.1625924 [INFO] [joint_state_publisher-5]: process has finished cleanly [pid 541]
+1783352752.1766088 [INFO] [franka_gripper_node-7]: process has finished cleanly [pid 545]
+1783352752.1852562 [ERROR] [rviz2-1]: process has died [pid 533, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/robohub/ws/install/franka_moveit_config/share/franka_moveit_config/rviz/moveit.rviz --ros-args -r __node:=rviz2 --params-file /tmp/launch_params_ydjtxu7z --params-file /tmp/launch_params_qaxn_ojc --params-file /tmp/launch_params_bjxgndc_ --params-file /tmp/launch_params_rn9_crro'].
+1783352752.3370280 [ERROR] [move_group-3]: process has died [pid 537, exit code -11, cmd '/opt/ros/humble/lib/moveit_ros_move_group/move_group --ros-args --params-file /tmp/launch_params_752hqkc2 --params-file /tmp/launch_params_6qr75zca --params-file /tmp/launch_params_85s_n82p --params-file /tmp/launch_params_dzzmtve6 --params-file /tmp/launch_params_rctn91eb --params-file /tmp/launch_params_wk0wkkbf --params-file /tmp/launch_params_p4ahkoyu'].

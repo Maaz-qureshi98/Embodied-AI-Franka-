@@ -1,0 +1,11 @@
+[alias]
+	lg = log --pretty=oneline --abbrev-commit --graph --decorate --all
+
+[user]
+	name = RoboHub User
+	email = robohub@uwaterloo.ca
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

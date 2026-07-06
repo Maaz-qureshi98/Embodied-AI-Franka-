@@ -1,0 +1,51 @@
+1783352817.3748524 [INFO] [launch]: All log files can be found below /home/robohub/.ros/log/2026-07-06-11-46-57-374097-labwork4-716
+1783352817.3749709 [INFO] [launch]: Default logging verbosity is set to INFO
+1783352818.2354894 [INFO] [rviz2-1]: process started with pid [723]
+1783352818.2397821 [INFO] [robot_state_publisher-2]: process started with pid [725]
+1783352818.2398810 [INFO] [move_group-3]: process started with pid [727]
+1783352818.2399530 [INFO] [ros2_control_node-4]: process started with pid [729]
+1783352818.2400191 [INFO] [joint_state_publisher-5]: process started with pid [731]
+1783352818.2400835 [INFO] [spawner-6]: process started with pid [733]
+1783352818.2401445 [INFO] [franka_gripper_node-7]: process started with pid [735]
+1783352818.2402706 [INFO] [ros2 run controller_manager spawner panda_arm_controller-8]: process started with pid [737]
+1783352818.2403347 [INFO] [ros2 run controller_manager spawner joint_state_broadcaster-9]: process started with pid [742]
+1783352818.2668169 [robot_state_publisher-2] [INFO] [1783352818.266578923] [robot_state_publisher]: got segment panda_hand
+1783352818.2671666 [robot_state_publisher-2] [INFO] [1783352818.266658243] [robot_state_publisher]: got segment panda_hand_tcp
+1783352818.2672610 [robot_state_publisher-2] [INFO] [1783352818.266668303] [robot_state_publisher]: got segment panda_leftfinger
+1783352818.2673311 [robot_state_publisher-2] [INFO] [1783352818.266673559] [robot_state_publisher]: got segment panda_link0
+1783352818.2673948 [robot_state_publisher-2] [INFO] [1783352818.266678233] [robot_state_publisher]: got segment panda_link1
+1783352818.2674556 [robot_state_publisher-2] [INFO] [1783352818.266682711] [robot_state_publisher]: got segment panda_link2
+1783352818.2676532 [robot_state_publisher-2] [INFO] [1783352818.266687444] [robot_state_publisher]: got segment panda_link3
+1783352818.2677269 [robot_state_publisher-2] [INFO] [1783352818.266692025] [robot_state_publisher]: got segment panda_link4
+1783352818.2677908 [robot_state_publisher-2] [INFO] [1783352818.266696473] [robot_state_publisher]: got segment panda_link5
+1783352818.2678502 [robot_state_publisher-2] [INFO] [1783352818.266700889] [robot_state_publisher]: got segment panda_link6
+1783352818.2679083 [robot_state_publisher-2] [INFO] [1783352818.266705779] [robot_state_publisher]: got segment panda_link7
+1783352818.2679660 [robot_state_publisher-2] [INFO] [1783352818.266710192] [robot_state_publisher]: got segment panda_link8
+1783352818.2680240 [robot_state_publisher-2] [INFO] [1783352818.266714525] [robot_state_publisher]: got segment panda_rightfinger
+1783352818.2823782 [franka_gripper_node-7] [INFO] [1783352818.282127471] [panda_gripper]: Trying to establish a connection with the gripper
+1783352818.2831676 [franka_gripper_node-7] [INFO] [1783352818.283043192] [panda_gripper]: Connected to gripper
+1783352818.3004973 [rviz2-1] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-robohub'
+1783352818.4541583 [rviz2-1] libGL error: glx: failed to create dri3 screen
+1783352818.4547036 [rviz2-1] libGL error: failed to load driver: nouveau
+1783352818.5706697 [rviz2-1] libGL error: glx: failed to create dri3 screen
+1783352818.5724664 [rviz2-1] libGL error: failed to load driver: nouveau
+1783352818.6304162 [rviz2-1] [INFO] [1783352818.627319399] [rviz2]: Stereo is NOT SUPPORTED
+1783352818.6309474 [rviz2-1] [INFO] [1783352818.627470368] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+1783352818.6559789 [rviz2-1] [INFO] [1783352818.655536016] [rviz2]: Stereo is NOT SUPPORTED
+1783352818.6707692 [joint_state_publisher-5] [INFO] [1783352818.670551803] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1783352818.7746322 [rviz2-1] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1783352818.7751048 [rviz2-1]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1783352818.8151555 [rviz2-1] [INFO] [1783352818.814941458] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.00351132 seconds
+1783352818.8161440 [rviz2-1] [INFO] [1783352818.814987720] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+1783352818.8170068 [rviz2-1] [WARN] [1783352818.815091144] [moveit_robot_model.robot_model]: Link panda_leftfinger has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1783352818.8174286 [rviz2-1] [WARN] [1783352818.815100197] [moveit_robot_model.robot_model]: Link panda_rightfinger has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1783352818.8797302 [INFO] [spawner-6]: process has finished cleanly [pid 733]
+1783352819.1562221 [INFO] [ros2 run controller_manager spawner joint_state_broadcaster-9]: process has finished cleanly [pid 742]
+1783352819.2263966 [INFO] [ros2 run controller_manager spawner panda_arm_controller-8]: process has finished cleanly [pid 737]
+1783352822.0912144 [rviz2-1] [ERROR] [1783352822.090960127] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1783352822.1456592 [rviz2-1] [INFO] [1783352822.145431021] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.00130431 seconds
+1783352822.1458211 [rviz2-1] [INFO] [1783352822.145461039] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+1783352822.1460652 [rviz2-1] [WARN] [1783352822.145495412] [moveit_robot_model.robot_model]: Link panda_leftfinger has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1783352822.1461325 [rviz2-1] [WARN] [1783352822.145506301] [moveit_robot_model.robot_model]: Link panda_rightfinger has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+1783352822.2585022 [rviz2-1] [INFO] [1783352822.258278838] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+1783352822.2594025 [rviz2-1] [INFO] [1783352822.258675684] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'

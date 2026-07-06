@@ -1,0 +1,31 @@
+[WARN] [1783352697.599886035] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1783352697.600889935] [resource_manager]: Loading hardware 'FrankaHardwareInterface' 
+[INFO] [1783352697.603927220] [resource_manager]: Initialize hardware 'FrankaHardwareInterface' 
+[INFO] [1783352697.604226919] [FrankaHardwareInterface]: Connecting to robot at "franka2" ...
+[INFO] [1783352697.614451635] [FrankaHardwareInterface]: Successfully connected to robot
+[INFO] [1783352697.615320564] [resource_manager]: Successful initialization of hardware 'FrankaHardwareInterface'
+[INFO] [1783352697.615499719] [resource_manager]: 'configure' hardware 'FrankaHardwareInterface' 
+[INFO] [1783352697.615527237] [resource_manager]: Successful 'configure' of hardware 'FrankaHardwareInterface'
+[INFO] [1783352697.615553892] [resource_manager]: 'activate' hardware 'FrankaHardwareInterface' 
+[INFO] [1783352697.615633709] [FrankaHardwareInterface]: Started
+[INFO] [1783352697.615642754] [resource_manager]: Successful 'activate' of hardware 'FrankaHardwareInterface'
+[WARN] [1783352697.627191718] [controller_manager]: Unable to lock the memory: 'No proper privileges to lock the memory!'
+[INFO] [1783352697.627221202] [controller_manager]: update rate is 1000 Hz
+[INFO] [1783352697.627229111] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[INFO] [1783352697.627301972] [controller_manager]: Successful set up FIFO RT scheduling policy with priority 50.
+[INFO] [1783352698.202959629] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1783352698.223419408] [controller_manager]: Loading controller 'franka_robot_state_broadcaster'
+[INFO] [1783352698.233549058] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1783352698.233628449] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1783352698.238634338] [controller_manager]: Configuring controller 'franka_robot_state_broadcaster'
+[INFO] [1783352698.241700527] [controller_manager]: Loading controller 'panda_arm_controller'
+[INFO] [1783352698.279057162] [controller_manager]: Configuring controller 'panda_arm_controller'
+[INFO] [1783352698.279229902] [panda_arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[WARN] [1783352698.279274823] [panda_arm_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1783352698.279783758] [panda_arm_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1783352698.280098381] [panda_arm_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1783352698.280316889] [panda_arm_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1783352698.280508420] [panda_arm_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1783352698.280568969] [panda_arm_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[WARN] [1783352698.280885708] [panda_arm_controller]: 'ff_velocity_scale' parameters is not defined under 'gains.<joint_name>.' structure. Maybe you are using deprecated format 'ff_velocity_scale/<joint_name>'!
+[INFO] [1783352698.281123721] [panda_arm_controller]: Command interfaces are [effort] and state interfac

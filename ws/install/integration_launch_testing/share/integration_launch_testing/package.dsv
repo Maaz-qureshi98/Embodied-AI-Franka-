@@ -1,0 +1,4 @@
+source;share/integration_launch_testing/hook/cmake_prefix_path.dsv
+source;share/integration_launch_testing/hook/cmake_prefix_path.sh
+source;share/integration_launch_testing/local_setup.dsv
+source;share/integration_launch_testing/local_setup.sh
