@@ -14,7 +14,7 @@ import copy
 JOINTS = ['panda_joint1','panda_joint2','panda_joint3','panda_joint4',
           'panda_joint5','panda_joint6','panda_joint7']
 
-H = 0.05          # half of 10cm box -> 5cm offset each direction
+H = 0.15          # half of 30cm box -> 15cm offset each direction
 HOLD = 2          # seconds to hold at each corner
 TAP_HOLD = 5      # seconds at middle before starting (tap sync)
 MOVE_DURATION = 3 # seconds per motion segment

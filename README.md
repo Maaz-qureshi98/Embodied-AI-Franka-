@@ -22,6 +22,9 @@ source /opt/ros/humble/setup.bash
 source ~/ws/install/setup.sh
 python3 ~/scripts/ab_motion.py
 
+
+python3 /home/robohub/scripts/pose_logger.py "10 cm cube1.json"
+
 ## Notes
 - Robot IP/hostname: franka2
 - Container name: uw_panda_ros2_robohub

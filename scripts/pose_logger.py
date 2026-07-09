@@ -7,17 +7,21 @@ import numpy as np
 import sys
 
 class PoseLogger(Node):
-    def __init__(self, filename):
+    def __init__(self, filename, target_frame='panda_link0', source_frame='panda_link8'):
         super().__init__('pose_logger')
         self.filename = filename
+        self.target_frame = target_frame
+        self.source_frame = source_frame
         self.tf_buffer = tf2_ros.Buffer()
         self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
         self.data = {}
-        self.timer = self.create_timer(0.02, self.log_pose)
+        self.timer = self.create_timer(1.0/30.0, self.log_pose)  # exact 30 Hz # 30 Hz
+        self._warn_count = 0
+        self._last_warn_logged = 0
 
     def log_pose(self):
         try:
-            t = self.tf_buffer.lookup_transform('panda_link0', 'panda_link8', rclpy.time.Time())
+            t = self.tf_buffer.lookup_transform(self.target_frame, self.source_frame, rclpy.time.Time())
             q = t.transform.rotation
             pos = t.transform.translation
 
@@ -37,7 +41,10 @@ class PoseLogger(Node):
             self.data[timestamp] = str(flat)
 
         except Exception as e:
-            self.get_logger().warn(f"TF lookup failed: {e}")
+            # Reduce log spam: only warn occasionally
+            self._warn_count += 1
+            if self._warn_count % 10 == 1:
+                self.get_logger().warn(f"TF lookup failed: {e} (target={self.target_frame}, source={self.source_frame})")
 
     def save(self):
         with open(self.filename, 'w') as f:
@@ -47,12 +54,22 @@ class PoseLogger(Node):
 def main():
     rclpy.init()
     filename = sys.argv[1] if len(sys.argv) > 1 else f"panda_trans_{int(time.time())}.json"
-    node = PoseLogger(filename)
+    target_frame = sys.argv[2] if len(sys.argv) > 2 else 'panda_link0'
+    source_frame = sys.argv[3] if len(sys.argv) > 3 else 'panda_link8'
+    node = PoseLogger(filename, target_frame, source_frame)
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
-        node.save()
-    rclpy.shutdown()
+        pass
+    finally:
+        try:
+            node.save()
+        except Exception as e:
+            print(f"Failed to save poses: {e}")
+        try:
+            rclpy.shutdown()
+        except Exception:
+            pass
 
 if __name__ == '__main__':
     main()

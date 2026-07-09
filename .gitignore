@@ -1,2 +1,8 @@
 ws/core
 .ros/log/
+.cache/
+.rviz2/
+.bash_history
+.cache/
+.rviz2/
+.bash_history
