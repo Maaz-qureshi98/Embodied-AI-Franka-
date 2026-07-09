@@ -6,3 +6,39 @@ ws/core
 .cache/
 .rviz2/
 .bash_history
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   .cache/mesa_shader_cache/index
+	deleted:    Data/9th July/Screen recoding/10 cm cube1_MP.mp4
+	deleted:    Data/9th July/Screen recoding/10 cm cube2_ MP.mp4
+	deleted:    Data/9th July/Screen recoding/10 cm cube3_ MP.mp4
+	deleted:    Data/9th July/Screen recoding/10 cm cube4_ MP.mp4
+	deleted:    Data/9th July/Screen recoding/10 cm cube5_ MP.mp4
+	deleted:    Data/9th July/Screen recoding/20 cm cube1_ MP.mp4
+	deleted:    Data/9th July/Screen recoding/20 cm cube2_ MP.mp4
+	deleted:    Data/9th July/Screen recoding/20 cm cube3_ MP.mp4
+	deleted:    Data/9th July/Screen recoding/20 cm cube4_ MP.mp4
+	deleted:    Data/9th July/Screen recoding/20 cm cube5_ MP.mp4
+	deleted:    Data/9th July/Screen recoding/30 cm cube1_ MP.mp4
+	deleted:    Data/9th July/Screen recoding/30 cm cube2_ MP.mp4
+	deleted:    Data/9th July/Screen recoding/30 cm cube3_ MP.mp4
+	deleted:    Data/9th July/Screen recoding/30 cm cube4_ MP.mp4
+	deleted:    Data/9th July/Screen recoding/30 cm cube5_ MP.mp4
+	deleted:    Data/9th July/Screen recoding/ARC_hand1_MP.mp4
+	deleted:    Data/9th July/Screen recoding/ARC_hand2_MP.mp4
+	deleted:    Data/9th July/Screen recoding/ARC_hand3_MP.mp4
+	deleted:    Data/9th July/Screen recoding/ARC_hand4_MP.mp4
+	deleted:    Data/9th July/Screen recoding/ARC_hand5_MP.mp4
+	deleted:    Data/9th July/Screen recoding/Screencast from 2026-07-09 12-42-59.mp4
+	deleted:    Data/9th July/Screen recoding/Screencast from 2026-07-09 12-44-53.mp4
+	deleted:    Data/9th July/Screen recoding/Screencast from 2026-07-09 12-46-25.mp4
+	deleted:    Data/9th July/Screen recoding/fig8_1_MP.mp4
+	modified:   ws/src/franka_ros2 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
