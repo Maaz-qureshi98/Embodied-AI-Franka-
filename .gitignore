@@ -42,3 +42,5 @@ Changes not staged for commit:
 	modified:   ws/src/franka_ros2 (untracked content)
 
 no changes added to commit (use "git add" and/or "git commit -a")
+.cache/
+ws/src/franka_ros2/
